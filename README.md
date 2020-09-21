@@ -1,4 +1,4 @@
-# onnx2keras
+# onnx2keras_custom
 
 ONNX to Keras deep neural network converter. 
 
@@ -33,7 +33,7 @@ TensorFlow 2.0
 ### ONNX model
 ```
 import onnx
-from onnx2keras import onnx_to_keras
+from onnx2keras_custom import onnx_to_keras
 
 # Load ONNX model
 onnx_model = onnx.load('resnet18.onnx')

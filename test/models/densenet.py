@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 from torch.autograd import Variable
-from onnx2keras import onnx_to_keras, check_torch_keras_error
+from onnx2keras_custom import onnx_to_keras, check_torch_keras_error
 import onnx
 from torchvision.models.densenet import densenet121
 

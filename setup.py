@@ -14,7 +14,7 @@ with open('README.md') as f:
     long_description = f.read()
 
 
-setup(name='onnx2keras',
+setup(name='onnx2keras_custom',
       version='0.0.22',
       description='The deep learning models converter',
       long_description=long_description,

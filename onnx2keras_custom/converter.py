@@ -54,7 +54,7 @@ def onnx_to_keras(onnx_model, input_names,
     if verbose:
         logging.basicConfig(level=logging.DEBUG)
 
-    logger = logging.getLogger('onnx2keras')
+    logger = logging.getLogger('onnx2keras_custom')
 
     logger.info('Converter is called.')
 

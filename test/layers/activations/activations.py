@@ -3,7 +3,7 @@ import numpy as np
 import onnx
 import os
 
-from onnx2keras import onnx_to_keras, check_torch_keras_error
+from onnx2keras_custom import onnx_to_keras, check_torch_keras_error
 
 from relu import LayerReLUTest, FReLUTest
 from hard_tanh import LayerHardtanhTest, FHardtanhTest
